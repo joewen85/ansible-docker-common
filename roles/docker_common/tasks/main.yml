@@ -67,7 +67,7 @@
 
 - name: install docker srver
   unarchive:
-    src: "https://downloads.yunzmall.com/docker-{{ docker_version }}.tgz"
+    src: "https://download.docker.com/linux/static/stable/x86_64/docker-{{ docker_version }}.tgz"
     dest: /tmp/
     remote_src: yes
 
